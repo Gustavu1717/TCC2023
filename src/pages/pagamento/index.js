@@ -1,7 +1,7 @@
 import './index.scss';
 
-function App() {
+export default function pagamento() {
   return (
-    
+
   )
 }
