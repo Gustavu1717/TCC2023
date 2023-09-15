@@ -1,0 +1,90 @@
+.pagina-pagamento{
+  display: flex;
+  flex-direction: column;
+
+  
+
+  .esq {
+
+      padding: 100px 0px 0px 70px;
+    .textos {
+      font-size: 12px;
+      color: #0083CA;
+    }
+  }
+
+  .esq2{
+    padding: 60px 0px 0px 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    
+    .tipos {
+      gap: 12px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border: 2px solid #d1d1d1ff;
+      width: 250px;
+      outline: none;
+      height: 50px;
+
+
+
+      img {
+        height: 40px;
+      }
+
+      select {
+        outline: none;
+        border: none;
+        height: 30px;
+        width: 185px;
+        display: flex;
+        font-size: 14px;
+      }
+
+
+    }
+
+    .tipos2 {
+      padding: 40px;
+      input {
+        padding: 20px;
+        border: 2px solid #d1d1d1ff;
+        height: 40px;
+        width: 420px;
+      }
+    }
+
+    .tipos3 {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      border: none;
+
+      .nr {
+        height: 40px;
+        padding: 20px;
+        border: 2px solid #d1d1d1ff;
+        width: 220px;
+      }
+
+      .MM {
+        border: 2px solid #d1d1d1ff;
+        height: 40px;
+        width: 90px;
+        padding: 20px;
+      }
+
+      .CVV {
+        border: 2px solid #d1d1d1ff;
+        height: 40px;
+        width: 72px;
+        padding: 20px;
+      }
+    }
+  }
+}
