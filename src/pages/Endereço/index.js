@@ -29,20 +29,54 @@ export default function Nendereco() {
                         <div className='end'>    
                             <p>Endereço de Entrega</p>
                         </div>
-                <div className='cep'>
+                    <div className='cep'>
                     <p>CEP</p>
 
                     <div className='ip'>
                         <input type='text' />
-                        <p>Não sei meu CEP</p>
+                        <button>Não sei meu CEP</button>
                     </div>
-                </div>
+                    </div>
+
+                    <div className='bt'>
+                        <button>Salvar</button>
+                    </div>
+
+                    <div className='ende'>
+                        <p>Endereço</p>
+                        <input type='text'/>
+                    </div>
+
+                    <div className='ender'>
+                        <p>Complemento</p>
+
+                        <div className='endere'>
+                            <input type='text'/>
+                            <button> + Adicionar complemento</button>
+                        </div>
+                    </div>
+
+                    <div className='bairro'>
+                        <p>Bairro</p>
+                        <input type='text'/>
+                    </div>
+                    
+                    <div className='bairro'>
+                        <p>Cidade</p>
+                        <input type='text'/>
+                    </div>
+
+                    <div className='bairro'>
+                        <p>Estado</p>
+                        <input type='text'/>
+                    </div>
 
                     <div className='bt'>
                         <button>Salvar</button>
                     </div>
                 </div>
             </div>
+
         </div>
     </main>
   )
