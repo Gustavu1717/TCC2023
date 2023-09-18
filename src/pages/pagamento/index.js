@@ -8,8 +8,9 @@ export default function pagamento() {
       <Cabecalho/>
         </div>
 
-        <div className='tudo'>
+      <div className='tudo'>
           
+        <div className='esquerda'>
           <div className='esq'>
             
             <div className='textos'>
@@ -38,9 +39,44 @@ export default function pagamento() {
                 <input className='CVV' type='text' placeholder='CVV'/>
 
                 </div>
-          </div>
-      
+            </div>
         </div>
+
+        <div className='direita'>
+
+          <div className='dir'>
+
+            <div className='textosloc'>
+              <img src='/assets/images/loc.png'/>
+              <h1>Preencha o endereço de entrega</h1>
+            </div>
+
+            <div className='inputs'>
+
+              <input className='endere' type='text' placeholder='Endereço'/>
+
+              <div className='cs'>
+
+                <input className='cepi' type='text' placeholder='CEP'/>
+                <input type='text' placeholder='Nº Casa'/>
+
+              </div>
+
+            <div className='complementoo'>
+              <input type='text' placeholder='Complemento'/>
+            </div>
+
+            <div className='confi'>
+              <button>Confirmar</button>
+            </div>
+
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
     </main>
   );
 }

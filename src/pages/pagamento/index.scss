@@ -2,7 +2,13 @@
   display: flex;
   flex-direction: column;
 
-  
+  .tudo {
+    display: flex;
+    flex-direction: row;
+    .esquerda {
+      width: 600px;
+    }
+  }
 
   .esq {
 
@@ -85,6 +91,93 @@
         width: 72px;
         padding: 20px;
       }
+    }
+
+
+  }
+
+  .direita {
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+
+    .dir {
+      display: flex;
+      line-height: 30px;
+      flex-direction: column;
+      padding: 100px 60px 60px 60px;
+
+      .textosloc {
+        gap: 14px;
+        display: flex;
+        flex-direction: row;
+
+        h1 {
+          font-size: 25px;
+          color: #0083CA;
+        }
+
+        img {
+          height: 30px;
+        }
+      }
+
+      .inputs {
+          line-height: 40px;
+          padding: 80px 20px 20px 20px;
+
+        .endere {
+          padding: 18px;
+          height: 30px;
+          width: 450px;
+          border: 2px solid #c8c8c8;
+        }
+
+        .cs {
+          display: flex;
+          flex-direction: row;
+          gap: 30px;
+          padding: 20px 0px 0px 0px;
+
+          .cepi {
+            padding: 18px;
+            height: 30px;
+            width: 300px;
+            border: 2px solid #c8c8c8;
+          }
+          input {
+            padding: 18px;
+            height: 30px;
+            width: 120px;
+            border: 2px solid #c8c8c8;
+          }
+        }
+        .complementoo {
+          padding: 20px 0px 0px 0px;
+        input {
+          padding: 18px;
+          height: 30px;
+          width: 450px;
+          border: 2px solid #c8c8c8;
+        }
+
+      }
+
+    .confi {
+        padding: 30px 0px 0px 170px;
+
+      button {
+        background-color: #0083CA;
+        font-weight: bold;
+        font-size: 16px;
+        height: 40px;
+        color: #fff;
+        border-radius: 20px;
+        width: 150px;
+      }
+    }
+      }
+
     }
   }
 }
